@@ -11,7 +11,7 @@ from app.services.menu_item_service import (
 # from app.errors import MenuItemNotFoundError, DuplicateMenuItemError
 from app.schemas.menu_item import Menu_item_Create, Menu_item_Read, Menu_item_Update
 
-router = APIRouter(prefix="/menu-items")
+router = APIRouter(prefix="*/menu-items")
 
 
 
