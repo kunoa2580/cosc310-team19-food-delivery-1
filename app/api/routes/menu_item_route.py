@@ -13,8 +13,7 @@ from app.schemas.menu_item import Menu_item_Create, Menu_item_Read, Menu_item_Up
 
 router = APIRouter(prefix="/menu-items")
 
-
-
+# api endpoint assumed that user have already selected restaurant  
 
 @router.get("")
 def menu_item_route_get_list() -> list[Menu_item_Read]:

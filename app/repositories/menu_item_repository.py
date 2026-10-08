@@ -1,6 +1,6 @@
 from pathlib import Path
 import os
-import 
+
 
 class MenuItemRepository:
 
